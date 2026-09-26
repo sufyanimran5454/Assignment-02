@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+
+<body bgcolor="#EAF2F8">
+
+<center>
+    <font face="Georgia" color="#154360" size="6">
+        <b>APPLICATION FORM</b>
+    </font>
+</center>
+
+<hr color="#2874A6" size="4">
+
+<form>
+
+<!-- A -->
+<fieldset>
+    <legend>
+        <font face="Arial" color="#2874A6" size="4">
+            <b>A. General Information</b>
+        </font>
+    </legend>
+
+    <font face="Verdana" color="#34495E">
+
+    <b>First Name:</b>
+    <input type="text" name="firstname">
+
+    &nbsp;&nbsp;
+
+    <b>Last Name:</b>
+    <input type="text" name="lastname">
+
+    <br><br>
+
+    <b>Date of Birth:</b>
+    <input type="date" name="dob">
+
+    &nbsp;&nbsp;
+
+    <b>Gender:</b>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+
+    <br><br>
+
+    <b>CNIC / ID Number:</b>
+    <input type="text" name="cnic">
+
+    <br><br>
+
+    <b>Address:</b>
+    <br>
+    <textarea rows="4" cols="50"></textarea>
+
+    <br><br>
+
+    <b>City:</b>
+    <input type="text" name="city">
+
+    &nbsp;&nbsp;
+
+    <b>Phone:</b>
+    <input type="tel" name="phone">
+
+    <br><br>
+
+    <b>Email:</b>
+    <input type="email" name="email">
+
+    </font>
+</fieldset>
+
+
+<br>
+
+
+<!-- B -->
+<fieldset>
+    <legend>
+        <font face="Arial" color="#2874A6" size="4">
+            <b>B. Type of Health Coverage</b>
+        </font>
+    </legend>
+
+    <font face="Verdana" color="#34495E">
+
+    <input type="radio" name="coverage">
+    Individual
+
+    <br>
+
+    <input type="radio" name="coverage">
+    Family
+
+    <br>
+
+    <input type="radio" name="coverage">
+    Employee
+
+    <br>
+
+    <input type="radio" name="coverage">
+    Other
+
+    </font>
+</fieldset>
+
+
+<br>
+
+
+<!-- C -->
+<fieldset>
+    <legend>
+        <font face="Arial" color="#2874A6" size="4">
+            <b>C. Spouse / Children Information</b>
+        </font>
+    </legend>
+
+    <font face="Verdana" color="#34495E">
+
+    <b>Spouse Name:</b>
+    <input type="text" name="spouse">
+
+    <br><br>
+
+    <b>Number of Children:</b>
+
+    <select name="children">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4+</option>
+    </select>
+
+    <br><br>
+
+    <b>Children Details:</b>
+    <br>
+
+    <textarea rows="5" cols="60"
+    placeholder="Enter children names and details"></textarea>
+
+    </font>
+</fieldset>
+
+
+<br>
+
+
+<!-- D -->
+<fieldset>
+    <legend>
+        <font face="Arial" color="#2874A6" size="4">
+            <b>D. Policy Information</b>
+        </font>
+    </legend>
+
+    <font face="Verdana" color="#34495E">
+
+    <b>Policy Number:</b>
+    <input type="text" name="policy">
+
+    <br><br>
+
+    <b>Policy Start Date:</b>
+    <input type="date" name="startdate">
+
+    <br><br>
+
+    <b>Insurance Company:</b>
+    <input type="text" name="company">
+
+    <br><br>
+
+    <b>Plan Type:</b>
+
+    <select name="plan">
+        <option>Select Plan</option>
+        <option>Basic</option>
+        <option>Standard</option>
+        <option>Premium</option>
+    </select>
+
+    </font>
+</fieldset>
+
+
+<br>
+
+
+<!-- E -->
+<fieldset>
+    <legend>
+        <font face="Arial" color="#2874A6" size="4">
+            <b>E. Required Document</b>
+        </font>
+    </legend>
+
+    <font face="Verdana" color="#34495E">
+
+    <b>Document Type:</b>
+
+    <select>
+        <option>Select Document</option>
+        <option>CNIC</option>
+        <option>Passport</option>
+        <option>Birth Certificate</option>
+        <option>Other</option>
+    </select>
+
+    <br><br>
+
+    <b>Upload Document:</b>
+    <input type="file">
+
+    </font>
+</fieldset>
+
+
+<br>
+
+
+<!-- F -->
+<fieldset>
+    <legend>
+        <font face="Arial" color="#2874A6" size="4">
+            <b>F. Declaration</b>
+        </font>
+    </legend>
+
+    <font face="Verdana" color="#34495E">
+
+    <input type="checkbox" name="declaration">
+
+    I declare that the information provided above is
+    true and correct.
+
+    <br><br>
+
+    <b>Additional Comments:</b>
+    <br>
+
+    <textarea rows="5" cols="60"></textarea>
+
+    </font>
+</fieldset>
+
+
+<br>
+
+<center>
+
+    <input type="reset"
+           value="Clear Form">
+
+    &nbsp;&nbsp;&nbsp;
+
+    <input type="submit"
+           value="Submit Application">
+
+</center>
+
+</form>
+
+<hr color="#2874A6" size="3">
+
+<center>
+    <font face="Arial" color="#566573" size="2">
+        Application Form | Please fill all information carefully
+    </font>
+</center>
+
+</body>
+</html>
